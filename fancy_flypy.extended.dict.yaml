@@ -1,0 +1,19 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# fancy_flypy
+# 扩展词库
+# 不需要的词库请注释掉
+---
+name: fancy_flypy.extended
+version: "0.1"
+sort: by_weight
+import_tables:
+    - fancy_flypy.base
+    - luna_pinyin.cn_en
+    - luna_pinyin.hanyu
+    - luna_pinyin.poetry
+    - luna_pinyin.extended
+    - fancy_flypy.cs
+    - fancy_flypy.kaomoji
+...
